@@ -15,9 +15,9 @@ func main() {
 		},
 		NumeroAgencia: 123,
 		NumeroConta:   123456,
-		Saldo:         100,
 	}
+	contaDoBruno.Depositar(100)
 
-	fmt.Println(contaDoBruno)
+	fmt.Println(contaDoBruno.ObterSaldo())
 
 }
